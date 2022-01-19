@@ -9,12 +9,16 @@
   height: 100vh;
   display: flex;
   justify-content: center;
-  /* background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
-   animation: hue 10s infinite; */
+  background-image: -webkit-linear-gradient(92deg, #f35626, #feab3a);
+   animation: hue 10s infinite;
    overflow: hidden;
-   background-image: url(./asset/undraw.png);
+   /* background-image: url(./asset/undraw.png);
    background-repeat: no-repeat;
-   background-position:center;
+   background-position:center; */
+}
+.like{
+  color:'blue';
+  background-color: 'blue';
 }
 @keyframes hue {
   from {

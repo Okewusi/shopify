@@ -17,6 +17,9 @@ function Home() {
     return (
         <div className='App'>
             <div className='searchContainer'>
+                <div className="logocontainer">
+                    <img src={logo} alt='spacestagram logo'/>
+                </div>
                 <div className='searchbox'>
                     <h3 className='boldtext'>Search through NASA's space images</h3>
                     <Link to='/images' className= "link">Get Started</Link>
